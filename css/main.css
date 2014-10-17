@@ -1,0 +1,62 @@
+body {
+  background-color: #eee;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font: normal 700 60px/1 'Geneva', serif;
+  text-align: center;
+  margin-top: 2em;
+}
+
+h2 {
+  font: normal 200 18px/0.9 'Geneva', sans-serif;
+  color: #2c3890;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  margin-bottom: 5em;
+}
+
+article {
+  width: 32em;
+  margin: 0 auto;
+  font: normal 400 19px/1.6 'Palatino';
+  transition: right 0.6s;
+  position: relative;
+  right: 0%;
+}
+
+article figure {
+  margin: 0;
+  display: none;
+  margin-top: 1em;
+}
+article img {
+  width: 100%;
+}
+
+article p {
+  position: relative;
+}
+
+article.shifted {
+  right: 17.5%;
+}
+
+.add-button {
+  display: inline-block;
+  color: #2c3890;
+  border: 1px solid #2c3890;
+  padding: 6px 15px;
+  border-radius: 5px;
+  font: normal 400 18px 'Geneva';
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-button:hover {
+  color: white;
+  background-color: #2c3890;
+}
